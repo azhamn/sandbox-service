@@ -64,7 +64,7 @@ public class GetProfileRequestHandler extends AbstractRequestHandler<GetProfileR
 
     @Override
     protected Returnable getResponseDTO() {
-	return null;
+	return responseWrapperDTO;
     }
 
     @Override
